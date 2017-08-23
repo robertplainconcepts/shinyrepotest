@@ -26,5 +26,5 @@ COPY /myapp /srv/shiny-server/
 EXPOSE 80
 
 COPY shiny-server.sh /usr/bin/shiny-server.sh
-
+ 
 CMD ["/usr/bin/shiny-server.sh"]
